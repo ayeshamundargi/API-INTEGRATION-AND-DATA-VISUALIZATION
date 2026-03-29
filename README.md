@@ -1,10 +1,17 @@
 # API-INTEGRATION-AND-DATA-VISUALIZATION 
+
 COMPANY:CODTECH IT SOLUTIONS 
+
 NAME:BIBI AYESHA MUNDARGI 
+
 INTERN ID:CTIS7588 
+
 DOMAIN:PYTHON PROGRAMMING
+
 DURATION:4 WEEKS 
+
 MENTOR:NEELA SANTOSH
+
 ##This project shows how a program can connect to an online API and get real-time data.
 It uses a public API to collect posts in JSON format from the internet.
 Before using the data, the program checks if the request was successful.
