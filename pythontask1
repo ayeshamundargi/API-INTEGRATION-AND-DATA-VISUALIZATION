@@ -1,0 +1,20 @@
+import requests
+
+# Public API
+url = "https://jsonplaceholder.typicode.com/posts"
+
+# Fetch data
+res = requests.get(url)
+
+# Check response
+if res.status_code == 200:
+    data = res.json()
+
+    # Display first 6 records
+    for i in range(6):
+        print("Post ID:", data[i]["id"])
+        print("Title:", data[i]["title"])
+        print("Body:", data[i]["body"])
+        print("-------------")
+else:
+    print("Unable to fetch data")
