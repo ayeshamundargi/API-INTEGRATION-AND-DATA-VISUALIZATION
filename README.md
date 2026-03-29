@@ -18,3 +18,7 @@ Before using the data, the program checks if the request was successful.
 Then it picks important details like post ID, title, and body.
 It displays the first six posts in a simple and easy-to-read format.
 Overall, it helps us understand how data is fetched, handled, and shown in real applications.
+
+#output
+
+https://github.com/user-attachments/assets/bb0c640e-02eb-41f9-91aa-ea794e680e29
